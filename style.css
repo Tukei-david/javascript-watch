@@ -1,0 +1,28 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 71%, 3%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    width: 400px;
+    max-width: 80%;
+    background-color: hsl(0, 22%, 86%);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn{
+    font-size: 60px;
+    color: hsl(0, 71%, 3%);
+}
